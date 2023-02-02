@@ -19,3 +19,5 @@ youtube-search
 sqlalchemy
 
 asyncio
+
+os
