@@ -14,7 +14,7 @@ import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 API_HASH = ("24c2270e7f1336eb59ca6c48e42ec6ca")
-token = os.environ.get("TG_BOT_TOKEN")
+token = os.environ.get("TOKEN")
 client = TelegramClient('ArabicHack', 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca").start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
@@ -24,7 +24,7 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = os.environ.get"TG_BOT_USERNAME"
+mybot = os.environ.get("BOT_USERNAME")
 bot = borg = client
 
 ArabicHack = 5159123009
